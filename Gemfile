@@ -2,6 +2,7 @@ source "https://rubygems.org"
 
 gem "activerecord"
 gem "cucumber"
+gem "database_cleaner"
 gem "guard-cucumber"
 gem "guard-rspec"
 gem "mysql2"
