@@ -15,7 +15,7 @@ namespace :db do
 
     begin
       create_db.call config
-    rescue Mysql::Error => sqlerr
+    rescue Mysql2::Error => sqlerr
       if sqlerr.errno == 1405
         print "#{sqlerr.error}. \nPlease provide the root password for your mysql installation\n>"
         root_password = $stdin.gets.strip
