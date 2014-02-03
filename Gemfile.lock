@@ -1,6 +1,9 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    activerecord (2.3.18)
+      activesupport (= 2.3.18)
+    activesupport (2.3.18)
     builder (3.2.2)
     celluloid (0.15.2)
       timers (~> 1.1.0)
@@ -59,6 +62,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  activerecord
   cucumber
   guard-cucumber
   guard-rspec
