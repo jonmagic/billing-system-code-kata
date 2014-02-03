@@ -1,0 +1,16 @@
+defaults: &defaults
+  adapter: mysql2
+  encoding: utf8
+  collation: utf8_unicode_ci
+  host: 127.0.0.1
+  password:
+  port: 13306
+  username: root
+
+development:
+  <<: *defaults
+  database: billing_dev
+
+test:
+  <<: *defaults
+  database: billing_test
