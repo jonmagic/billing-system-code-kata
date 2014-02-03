@@ -9,6 +9,12 @@ I'm writing this kata for myself because I want to get better and faster at solv
 * Try not to read ahead.
 * Implement one feature at a time.
 
+## Run Features
+
+```
+bundle exec guard
+```
+
 ## Features
 
 ```cucumber
